@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "aula-20"
+version = "0.1.0"
+description = ""
+authors = ["devmatheus0 <92046361+devmatheus0@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+sqlalchemy = "^2.0.36"
+pydantic = {extras = ["email"], version = "^2.9.2"}
+fastapi = "^0.115.5"
+uvicorn = "^0.32.0"
+psycopg2 = "^2.9.10"
+psycopg2-binary = "^2.9.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
